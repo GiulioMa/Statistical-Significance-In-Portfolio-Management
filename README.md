@@ -1,7 +1,7 @@
 # A Comprehensive Guide to Understanding Statistical Significance in Portfolio Management
 
 ## Overview
-This repository houses a Jupyter Notebook designed as an educational tool for understanding the statistical methods involved in evaluating a portfolio manager's performance. The notebook takes a deep dive into hypothesis testing, Z-tests, confidence levels, and sample size calculations. It offers both textual explanations and mathematical formulas, supplemented with Python code for practical implementation. In essence, the notebook aims to quantify the number of years a portfolio manager would need to outperform the market to achieve a statistically significant result with a high level of confidence.
+This repository houses a Jupyter Notebook that serves as an educational tool for diving deep into the statistical methodologies employed to assess a portfolio manager's performance. The notebook explores the areas of hypothesis testing, Z-tests, confidence levels, and sample size calculations. It couples textual explanations with mathematical formulas and is further enriched with Python code for hands-on implementation. The ultimate objective is to quantify the number of years a portfolio manager would need to consistently outperform the market to yield a result that is statistically significant with a high degree of confidence.
 
 ## Table of Contents
 - Introduction: Setting the Stage
@@ -12,6 +12,7 @@ This repository houses a Jupyter Notebook designed as an educational tool for un
 - The Quantile Function and Z-Values: A Mathematical Insight
 - Visualizing Confidence Intervals: A Graphical Approach
 - Numerical Estimation of Z-Values: An Alternative Method
+- Verifying the 95% Confidence Interval: A Numerical Validation
 - Assumptions and Preconditions: What Needs to Be True
 - Standard Deviation: Measuring Variability in Portfolio Returns
 - Sample Size Calculation: The Final Step
@@ -20,7 +21,7 @@ This repository houses a Jupyter Notebook designed as an educational tool for un
 ## Prerequisites
 - Python 3.x
 - Jupyter Notebook
-- Libraries: numpy, matplotlib, scipy, scipy.optimize
+- Libraries: numpy, matplotlib, scipy
 
 ## How to Use
 1. Clone this repository to your local machine.
@@ -35,10 +36,10 @@ This repository houses a Jupyter Notebook designed as an educational tool for un
     ```
     jupyter notebook
     ```
-4. Open the notebook and run the cells to explore the content.
+4. Open the notebook and run the cells to explore the content in detail.
 
 ## Contributing
-Contributions are welcome! Feel free to fork the repository and submit pull requests for enhancements or additional features.
+Contributions are welcome! Please feel free to fork the repository and submit pull requests for any enhancements or additional features you think would be beneficial.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
