@@ -40,4 +40,4 @@ This repository contains a Jupyter Notebook that explores the concept of statist
 Feel free to fork the repository and submit pull requests for any improvements or additions you propose.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
