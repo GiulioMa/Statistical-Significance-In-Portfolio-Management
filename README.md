@@ -1,25 +1,26 @@
-# Statistical Significance in Portfolio Management
+# A Comprehensive Guide to Understanding Statistical Significance in Portfolio Management
 
 ## Overview
-This repository contains a Jupyter Notebook that explores the concept of statistical significance in the context of portfolio management. Using hypothesis testing, Z-tests, and confidence intervals, the notebook provides a comprehensive examination of how many years a portfolio manager would need to outperform the market to achieve a statistically significant result.
+This repository houses a Jupyter Notebook designed as an educational tool for understanding the statistical methods involved in evaluating a portfolio manager's performance. The notebook takes a deep dive into hypothesis testing, Z-tests, confidence levels, and sample size calculations. It offers both textual explanations and mathematical formulas, supplemented with Python code for practical implementation. In essence, the notebook aims to quantify the number of years a portfolio manager would need to outperform the market to achieve a statistically significant result with a high level of confidence.
 
 ## Table of Contents
-- Introduction
-- Hypothesis Testing: The Cornerstone
-- Null and Alternative Hypotheses
-- Z-Test: A Critical Statistical Tool
-- Confidence Levels and Z-Values
-- Assumptions and Preconditions
-- Standard Deviation in Portfolio Management
-- Sample Size Calculation
-- Visualizing Confidence Intervals
-- Numerical Estimation of Z-Values
-- Conclusion
+- Introduction: Setting the Stage
+- Hypothesis Testing: The Cornerstone of Inferential Statistics
+- Null and Alternative Hypotheses: The Initial Step
+- Z-Test: Understanding the Core Statistical Tool
+- Confidence Levels: Laying the Foundation
+- The Quantile Function and Z-Values: A Mathematical Insight
+- Visualizing Confidence Intervals: A Graphical Approach
+- Numerical Estimation of Z-Values: An Alternative Method
+- Assumptions and Preconditions: What Needs to Be True
+- Standard Deviation: Measuring Variability in Portfolio Returns
+- Sample Size Calculation: The Final Step
+- Conclusion: Wrapping It Up
 
 ## Prerequisites
 - Python 3.x
 - Jupyter Notebook
-- Libraries: numpy, matplotlib, scipy
+- Libraries: numpy, matplotlib, scipy, scipy.optimize
 
 ## How to Use
 1. Clone this repository to your local machine.
@@ -34,10 +35,10 @@ This repository contains a Jupyter Notebook that explores the concept of statist
     ```
     jupyter notebook
     ```
-4. Open the notebook and run the cells to follow along.
+4. Open the notebook and run the cells to explore the content.
 
 ## Contributing
-Feel free to fork the repository and submit pull requests for any improvements or additions you propose.
+Contributions are welcome! Feel free to fork the repository and submit pull requests for enhancements or additional features.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
